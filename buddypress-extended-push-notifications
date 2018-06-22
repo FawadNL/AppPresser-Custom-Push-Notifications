@@ -4,7 +4,7 @@
 //Remove this if you have already added it through WC Push Notifications script
 add_action( 'wp_enqueue_scripts', 'appp_custom_scripts' );
 function appp_custom_scripts() {
-	wp_enqueue_script( 'appp-custom', plugins_url( 'js/apppresser-custom.js' , __FILE__ ), array('jquery', 'cordova-core'), 1.0 );
+	wp_enqueue_script( 'appp-custom', get_stylesheet_directory_uri( 'js/apppresser-custom.js' , __FILE__ ), array('jquery', 'cordova-core'), 1.0 );
 }
 
 add_action('friends_friendship_requested', 'bp_send_friend_request', 10, 3);
