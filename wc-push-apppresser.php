@@ -5,7 +5,7 @@
 
 add_action( 'wp_enqueue_scripts', 'appp_custom_scripts' );
 function appp_custom_scripts() {
-	wp_enqueue_script( 'appp-custom', plugins_url( 'js/apppresser-custom.js' , __FILE__ ), array('jquery', 'cordova-core'), 1.0 );
+	wp_enqueue_script( 'appp-custom', get_stylesheet_directory_uri( 'js/apppresser-custom.js' , __FILE__ ), array('jquery', 'cordova-core'), 1.0 );
 }
 
 add_action( 'woocommerce_order_status_changed', 'order_status_changed_hook', 10, 3 );
