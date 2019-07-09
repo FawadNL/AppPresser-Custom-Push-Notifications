@@ -1,7 +1,7 @@
 # apppresser
 WooCommerce & Buddypress Push Notifications for AppPresser
 
-Request a quote: https://appency.nl/contact
+Request a quote: https://roadmapstudios.com/contact
 
 For support, please open an issue in github. Make sure that there are no similar issues already open! Ideas are welcome, we made this solution open source because we want to improve it and your feedback is valuable. Thank you for using this plugin.
 
