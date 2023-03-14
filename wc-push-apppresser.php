@@ -1,3 +1,4 @@
+<?php
 //*Add this code in your main WP theme Functions.php
 //*You can also change/add push messages of the order status = $msg
 

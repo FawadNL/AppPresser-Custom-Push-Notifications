@@ -1,3 +1,4 @@
+<?php
 // BuddyPress Extended Push Notifications: 
 // Friendship request/accepted, group membership, tagging a person in comments.
 

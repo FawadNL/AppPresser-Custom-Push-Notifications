@@ -1,3 +1,4 @@
+<?php
 /**
  * Adding a metabox inside Tickera Event edit page to send custom push notifications to all attendees of that event. This function requires AppPresser.
  *
