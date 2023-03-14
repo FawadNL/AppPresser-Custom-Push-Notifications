@@ -16,9 +16,9 @@ function order_status_changed_hook($order_id, $old_status, $new_status)
     fwrite($fp, '\n order old status : '.$old_status);
     fwrite($fp, '\n order new status : '.$new_status);
     $order = wc_get_order( $order_id );
-    $items = $order->get_data();
+    // $items = $order->get_data();
     $user_id = $order->get_user_id();
-    $device_ids = get_user_meta( $user_id, 'ap3_endpoint_arns', 1 );
+    // $device_ids = get_user_meta( $user_id, 'ap3_endpoint_arns', 1 );
     
     $msg = '';
     if ($new_status == 'pending') {
